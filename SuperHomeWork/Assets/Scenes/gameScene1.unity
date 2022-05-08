@@ -1046,7 +1046,7 @@ MonoBehaviour:
     type: 3}
   target: {fileID: 998255160}
   collectedCoinPosition: {fileID: 1804139197}
-  maxCoins: 20
+  maxCoins: 15
   minAnimDuraction: 0.7
   maxAnimDuraction: 1.8
   easeType: 26
@@ -1677,7 +1677,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804139193}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 162.8, y: 5.8, z: 919}
+  m_LocalPosition: {x: 163.8, y: 3.8, z: 919}
   m_LocalScale: {x: 10.778318, y: 9.751987, z: 24.700039}
   m_Children: []
   m_Father: {fileID: 0}
