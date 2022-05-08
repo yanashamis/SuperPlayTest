@@ -24,25 +24,19 @@ public class uiHolder : MonoBehaviour
     {
         if ((percents > 100) || (percents < 0))
             return;
-            StartCoroutine(ChangeStateCor(percents));
+        StartCoroutine(ChangeStateCor(percents));
     }
 
     public void RandomButton1()
     {
-      //  StartCoroutine(ChangeState(random()));
-      //StartCoroutine(RandomButton());
-    }
-
-    IEnumerator RandomButton()
-    {
-        yield return new WaitForEndOfFrame();
-        ChangeStateCor(random());
+        float randomPercent = random();
+        //Debug.Log("random percent: " + randomPercent);
+        ChangeState(randomPercent);
     }
 
     IEnumerator ChangeStateCor(float percents)
     {
         yield return new WaitForEndOfFrame();
-       // if (barMaskrectTransform.sizeDelta.x < maxWidthOfBar * percents / 100)
          if(Mathf.Abs(barMaskrectTransform.sizeDelta.x - maxWidthOfBar * percents / 100) > speed)
         {
             if(barMaskrectTransform.sizeDelta.x < maxWidthOfBar * percents / 100)
@@ -56,8 +50,6 @@ public class uiHolder : MonoBehaviour
         {
             CoinManager.lastButton();
         }
-
-
     }
 
 

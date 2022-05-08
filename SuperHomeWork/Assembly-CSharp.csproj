@@ -71,25 +71,7 @@
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\BezierPath.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\EndOfPathInstruction.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\GlobalDisplaySettings.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\MinMax3D.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\PathCreator.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\PathCreatorData.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\PathSpace.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Objects\VertexPath.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Utility\CubicBezierUtility.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Utility\MathUtility.cs" />
-    <Compile Include="Assets\PathCreator\Core\Runtime\Utility\VertexPathUtility.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\GeneratePathExample.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\PathFollower.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\PathPlacer.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\PathSceneTool.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\PathSpawner.cs" />
-    <Compile Include="Assets\PathCreator\Examples\Scripts\RoadMeshCreator.cs" />
     <Compile Include="Assets\coinManager.cs" />
-    <Compile Include="Assets\test.cs" />
     <Compile Include="Assets\uiHolder.cs" />
     <None Include="Assets\Demigiant\DOTween\readme.txt" />
     <Reference Include="UnityEngine">
@@ -276,7 +258,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -624,31 +606,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.19f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/shami/Desktop/SuperHomeTest/SuperHomeWork/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/shami/Desktop/gitSuperTask/SuperHomeWork/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
