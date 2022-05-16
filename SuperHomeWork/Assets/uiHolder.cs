@@ -12,7 +12,7 @@ public class uiHolder : MonoBehaviour
     private RectTransform barMaskrectTransform;
     public float speed;
     public const float maxWidthOfBar = 600;
-    public GameObject edge;
+
 
     private float random()
     {
@@ -30,8 +30,7 @@ public class uiHolder : MonoBehaviour
     public void RandomButton1()
     {
         float randomPercent = random();
-        //Debug.Log("random percent: " + randomPercent);
-        ChangeState(randomPercent);
+              ChangeState(randomPercent);
     }
 
     IEnumerator ChangeStateCor(float percents)
